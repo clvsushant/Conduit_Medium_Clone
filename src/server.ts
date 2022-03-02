@@ -5,7 +5,7 @@ import { User } from './entities/User'
 import { userRoute } from './routes/user'
 import { usersRoute } from './routes/users'
 
-const app = express()
+const app = express();
 
 app.use(express.json())
 
